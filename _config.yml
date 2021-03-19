@@ -1,0 +1,32 @@
+name: Brittany Chiang
+title: Brittany Chiang | Front End Software Engineer
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://bchiang7.github.io/
+baseurl: ''
+email: brittany.chiang@gmail.com
+cover: https://bchiang7.github.io/assets/img/og.png
+logo: https://bchiang7.github.io/assets/img/emojis/technologist.png
+resume: https://bchiang7.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:alteos98@gmail.com
+  - title: twitter
+    url: https://twitter.com/toura__
+  - title: instagram
+    url: https://instagram.com/toura__
+  - title: github
+    url: https://github.com/alteos98
+  - title: linkedin
+    url: https://www.linkedin.com/in/albert-teira-osuna-82311a159
+
+sass:
+  style: compressed
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
+
+keep_files:
+  - '.git'
+  - '.gitignore'
