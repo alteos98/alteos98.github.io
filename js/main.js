@@ -20,6 +20,31 @@ $(function() {
     }
   });
 
+  topButton.addEventListener('click', function() {
+    $('html, body').animate({ scrollTop: 0 }, 500);
+  });
+
+  const hand = document.querySelector('.emoji.wave-hand');
+
+  function waveOnLoad() {
+    hand.classList.add('wave');
+    setTimeout(function() {
+      hand.classList.remove('wave');
+    }, 2000);
+  }
+
+  setTimeout(function() {
+    waveOnLoad();
+  }, 1000);
+
+  hand.addEventListener('mouseover', function() {
+    hand.classList.add('wave');
+  });
+
+  hand.addEventListener('mouseout', function() {
+    hand.classList.remove('wave');
+  });
+
   window.sr = ScrollReveal({
     reset: false,
     duration: 600,
@@ -28,7 +53,7 @@ $(function() {
     viewFactor: 0.3,
   });
 
-  sr.reveal('.about-me');
+  sr.reveal('.background');
   sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });
   sr.reveal('.my-projects', { viewFactor: 0.05 });
