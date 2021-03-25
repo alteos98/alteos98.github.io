@@ -9,3 +9,5 @@
     - thing: Bootstrap
     - thing: Javascript
     - thing: MySQL
+    - thing: Networking
+    - thing: Firewall
