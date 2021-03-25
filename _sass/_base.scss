@@ -109,6 +109,12 @@ strong {
   @include mobile {
     padding: 50px 35px;
   }
+  /*
+  padding: 15vh 20vw;
+  @include mobile {
+    padding: 10vh 10vw;
+  }
+  */
   &__title {
     flex-shrink: 0;
     width: 200px;
