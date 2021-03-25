@@ -4,9 +4,9 @@ description: This is my portfolio
 url: https://alteos98.github.io/
 baseurl: ''
 email: alteos98@gmail.com
-cover: https://bchiang7.github.io/assets/img/og.png
-logo: https://bchiang7.github.io/assets/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+cover: https://alteos98.github.io/assets/img/og.png
+logo: https://alteos98.github.io/assets/img/emojis/technologist.png
+resume: https://alteos98.github.io/resume.pdf
 social:
   - title: email
     url: mailto:alteos98@gmail.com
