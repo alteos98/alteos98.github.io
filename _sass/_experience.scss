@@ -1,7 +1,4 @@
 .experience {
-  .jobs {
-    margin-bottom: 100px;
-  }
   .job {
     margin-bottom: 25px;
     .time-place {
@@ -40,13 +37,6 @@
           margin-left: 0;
         }
       }
-    }
-  }
-  .arrow-link {
-    font-size: 1.25rem;
-    &:after {
-      width: 20px;
-      height: 20px;
     }
   }
 }
