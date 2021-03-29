@@ -1,0 +1,16 @@
+<section class="section education">
+    <div class="section__title">Education</div>
+    <div class="section__content">
+        {% for degree in site.data.education %}
+        <div class="degree">
+            <div class="time-place">
+                <div class="degree__course">
+                    <a href="{{degree.url}}" target="_blank">{{degree.course}}</a>
+                </div>
+                <div class="degree__time">{{degree.time}}</div>
+            </div>
+            <div class="degree__institution">{{degree.institution}}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
