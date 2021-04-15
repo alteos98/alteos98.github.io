@@ -2,12 +2,24 @@
   url: https://www.moleiro.com/
   time: June 2019 - Present
   position: Engineer
-  used:
-    - thing: PHP
+  technology:
     - thing: HTML
     - thing: CSS
+    - thing: JS
+    - thing: PHP
+    - thing: Composer
+    - thing: Silex
+    - thing: Smarty
     - thing: Bootstrap
-    - thing: Javascript
+    - thing: JQuery
     - thing: MySQL
-    - thing: Networking
-    - thing: Firewall
+  tool:
+    - thing: Git
+    - thing: Github
+    - thing: Github Desktop
+    - thing: Jira
+    - thing: Confluence
+    - thing: AWS EC2
+    - thing: Windows Server
+    - thing: cPanel
+    - thing: VS Code

@@ -13,7 +13,7 @@
     }
     &__time {
       font-size: 0.9rem;
-      font-family: 'Inconsolata', monospace;
+      font-family: "Inconsolata", monospace;
       @include mobile {
         font-size: 0.8rem;
       }
@@ -21,21 +21,32 @@
     &__position {
       margin-bottom: 20px;
     }
-    &__used {
+    &__technology,
+    &__tool {
       &__item {
         display: inline-block;
         margin: 3px 3px 3px 0;
-        font-family: 'Inconsolata', monospace;
+        font-family: "Inconsolata", monospace;
         font-size: 0.75rem;
         font-weight: 700;
         padding: 2px 7px;
         border-radius: 3px;
-        color: $blue;
-        border: 1px solid $blue;
         background: transparent;
         &:first-of-type {
           margin-left: 0;
         }
+      }
+    }
+    &__technology {
+      &__item {
+        color: $blue;
+        border: 1px solid $blue;
+      }
+    }
+    &__tool {
+      &__item {
+        color: $purple;
+        border: 1px solid $purple;
       }
     }
   }
