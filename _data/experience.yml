@@ -1,6 +1,21 @@
+- company: Minsait
+  url: https://www.minsait.com/
+  time: June 2021 - Present
+  position: Full-Stack / RPA Developer
+  technology:
+    - thing: UiPath
+    - thing: UiPath Orchestrator
+  tool:
+    - thing: UiPath Studio
+    - thing: Git
+    - thing: Github
+    - thing: Github Desktop
+    - thing: Microsoft Teams
+    - thing: Workspace / Workplace from Meta
+
 - company: M. Moleiro Editor S.A.
   url: https://www.moleiro.com/
-  time: June 2019 - Present
+  time: June 2019 - June 2021
   position: Engineer
   technology:
     - thing: HTML
